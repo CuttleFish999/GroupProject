@@ -1,0 +1,228 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style:none;
+}
+/* SOP */
+/* 1.首先定位大標題<li> */
+/* 2.將大標題文字對旗置中，修改顏色，使用絕對定位，寬度，最左，透明度0。 */
+/* 3.設定大標題被選取後的顏色 */
+/* 4.設定當大標題被選取後顯示小標題與其動畫。 */
+/* 5.設定小標題文字顏色 */
+/* 6.設定大標題文字間距與輔助數字線 */
+
+
+
+/* 導航欄 */
+
+#nav-ul{
+    background: #888;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+#nav-ul a{
+    color: white;
+}
+#nav-ul li{
+    padding: 0 1em;
+}
+
+
+/* 會員中心 */
+
+#member-Management{
+    position: relative;
+}
+
+#member-Management:hover{
+    background: green;
+    
+}
+
+#member-Management:hover #member-Management-ul{
+    opacity: 1;
+    transition: 1s;
+}
+
+#member-Management-ul{
+    text-align: center;
+    background: #aaa;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    opacity: 0;
+}
+
+#member-Management-ul li{
+    padding: 3px 3px;
+    
+    list-style: decimal; /* 開發完成後需註解 */
+}
+
+#member-Management-ul li:hover {
+    background-color: yellowgreen; 
+    
+}
+#member-Management-ul li:hover a {
+    color: black;
+}
+
+/* 物件管理 */
+
+#objectManagement{
+    position: relative;
+}
+
+#objectManagement:hover{
+    background: green;
+    
+}
+
+#objectManagement:hover #objectManagement-ul{
+    opacity: 1;
+    transition: 1s;
+}
+
+#objectManagement-ul{
+    text-align: center;
+    background: #aaa;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    opacity: 0;
+}
+
+#objectManagement-ul li{
+    padding: 3px 3px;
+    
+    list-style: decimal; /* 開發完成後需註解 */
+}
+
+#objectManagement-ul li:hover {
+    background-color: yellowgreen; 
+    
+}
+#objectManagement-ul li:hover a {
+    color: black;
+}
+
+/* 購物管理 */
+
+#shoppingManagement{
+    position: relative;
+}
+
+#shoppingManagement:hover{
+    background: green;
+    
+}
+
+#shoppingManagement:hover #shoppingManagement-ul{
+    opacity: 1;
+    transition: 1s;
+}
+
+#shoppingManagement-ul{
+    text-align: center;
+    background: #aaa;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    opacity: 0;
+}
+
+#shoppingManagement-ul li{
+    padding: 3px 3px;
+    
+    list-style: decimal; /* 開發完成後需註解 */
+}
+
+#shoppingManagement-ul li:hover {
+    background-color: yellowgreen; 
+    
+}
+#shoppingManagement-ul li:hover a {
+    color: black;
+}
+
+/* 公告管理 */
+
+#announcementManagement{
+    position: relative;
+}
+
+#announcementManagement:hover{
+    background: green;
+    
+}
+
+#announcementManagement:hover #announcementManagement-ul{
+    opacity: 1;
+    transition: 1s;
+}
+
+#announcementManagement-ul{
+    text-align: center;
+    background: #aaa;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    opacity: 0;
+}
+
+#announcementManagement-ul li{
+    padding: 3px 3px;
+    
+    list-style: decimal; /* 開發完成後需註解 */
+}
+
+#announcementManagement-ul li:hover {
+    background-color: yellowgreen; 
+    
+}
+#announcementManagement-ul li:hover a {
+    color: black;
+}
+
+/* 投訴管理 */
+
+#contactUsManagement{
+    position: relative;
+}
+
+#contactUsManagement:hover{
+    background: green;
+    
+}
+
+#contactUsManagement:hover #contactUsManagement-ul{
+    opacity: 1;
+    transition: 1s;
+}
+
+#contactUsManagement-ul{
+    text-align: center;
+    background: #aaa;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    opacity: 0;
+}
+
+#contactUsManagement-ul li{
+    padding: 3px 3px;
+    
+    list-style: decimal; /* 開發完成後需註解 */
+}
+
+#contactUsManagement-ul li:hover {
+    background-color: yellowgreen; 
+    
+}
+#contactUsManagement-ul li:hover a {
+    color: black;
+}
+
