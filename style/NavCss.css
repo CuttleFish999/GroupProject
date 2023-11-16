@@ -4,6 +4,17 @@
     text-decoration: none;
     list-style:none;
 }
+/* SOP */
+/* 1.首先定位大標題<li> */
+/* 2.將大標題文字對旗置中，修改顏色，使用絕對定位，寬度，最左，透明度0。 */
+/* 3.設定大標題被選取後的顏色 */
+/* 4.設定當大標題被選取後顯示小標題與其動畫。 */
+/* 5.設定小標題文字顏色 */
+/* 6.設定大標題文字間距與輔助數字線 */
+
+
+
+/* 導航欄 */
 
 #nav-ul{
     background: #888;
@@ -21,6 +32,7 @@
 
 
 /* 會員中心 */
+
 #mumber-center{
     position: relative;
 }
@@ -60,7 +72,41 @@
 
 /* 租賃服務 */
 
+
+#RentalServices{
+    position: relative;
+}
+
 #RentalServices-ul{
+    text-align: center;
+    background: #aaa;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    opacity: 0;
+}
+
+#RentalServices:hover{
+    background: green;
     
+}
+
+#RentalServices:hover #RentalServices-ul{
+    opacity: 1;
+    transition: 1s;
+}
+
+#RentalServices-ul li:hover {
+    background-color: yellowgreen; 
+    
+}
+#RentalServices-ul li:hover a {
+    color: black;
+}
+
+#RentalServices-ul li{
+    padding: 3px 3px;
+    
+    list-style: decimal; /* 開發完成後需註解 */
 }
 
