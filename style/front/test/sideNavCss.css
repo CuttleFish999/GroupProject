@@ -1,6 +1,7 @@
 *{
     text-decoration: none;
     margin: 0;
+    list-style: none;
 }
 
 html,body{
@@ -17,19 +18,16 @@ html,body{
 
 #nav-ul{
     /* transform: translateX(-100%); */
-    background: #ccc;
-    width: 150px;
+    background: rgba(0,0,0,.6);
+    width: 170px;
     position: fixed;
-    left: 0;
+    left: -30px;
     top: 0;
     border-radius:0 30px 30px 0;
     transition: .3s;
     font-size: 1.5em;
     
 }
-
-
-
 
 #arrowIcon{
     width: 25px;
@@ -38,7 +36,24 @@ html,body{
     top: 50%;
     left: 190px;
     margin: 0 auto;
+    background: rgba(255,255,255,.6);
+}
 
+
+#mumber-center > a,
+#RentalServices > a,
+#shopServices > a,
+#announcement > a,
+#contactUs > a{
+    color: red;
+}
+
+#mumber-ul li > a,
+#RentalServices-ul li > a,
+#shopServices-ul li > a,
+#announcement-ul li > a,
+#contactUs-ul li > a{
+    color: white;
 }
 
 
