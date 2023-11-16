@@ -106,7 +106,118 @@
 
 #RentalServices-ul li{
     padding: 3px 3px;
-    
     list-style: decimal; /* 開發完成後需註解 */
 }
 
+/* 生活百貨 */
+
+#shopServices{
+    position: relative;
+}
+
+#shopServices-ul{
+    text-align: center;
+    background: #aaa;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    opacity: 0;
+}
+
+#shopServices:hover{
+    background: green;
+    
+}
+
+#shopServices:hover #shopServices-ul{
+    opacity: 1;
+    transition: 1s;
+}
+
+#shopServices-ul li:hover {
+    background-color: yellowgreen; 
+    
+}
+#shopServices-ul li:hover a {
+    color: black;
+}
+
+#shopServices-ul li{
+    padding: 3px 3px;
+    list-style: decimal; /* 開發完成後需註解 */
+}
+
+/* 公告 */
+
+#announcement{
+    position: relative;
+}
+
+#announcement-ul{
+    text-align: center;
+    background: #aaa;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    opacity: 0;
+}
+
+#announcement:hover{
+    background: green;
+    
+}
+
+#announcement:hover #announcement-ul{
+    opacity: 1;
+    transition: 1s;
+}
+contactUs
+#announcement-ul li:hover {
+    background-color: yellowgreen; 
+    
+}
+#announcement-ul li:hover a {
+    color: black;
+}
+
+#announcement-ul li{
+    padding: 3px 3px;
+    list-style: decimal; /* 開發完成後需註解 */
+}
+/* 聯絡我們 */
+
+#contactUs{
+    position: relative;
+}
+
+#contactUs-ul{
+    text-align: center;
+    background: #aaa;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    opacity: 0;
+}
+
+#contactUs:hover{
+    background: green;
+    
+}
+
+#contactUs:hover #contactUs-ul{
+    opacity: 1;
+    transition: 1s;
+}
+
+#contactUs-ul li:hover {
+    background-color: yellowgreen; 
+    
+}
+#contactUs-ul li:hover a {
+    color: black;
+}
+
+#contactUs-ul li{
+    padding: 3px 3px;
+    list-style: decimal; /* 開發完成後需註解 */
+}
