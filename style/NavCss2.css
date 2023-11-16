@@ -1,0 +1,250 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style:none;
+}
+/* SOP */
+/* 1.首先定位大標題<li> */
+/* 2.將大標題文字對旗置中，修改顏色，使用絕對定位，寬度，最左，透明度0。 */
+/* 3.設定大標題被選取後的顏色 */
+/* 4.設定當大標題被選取後顯示小標題與其動畫。 */
+/* 5.設定小標題文字顏色 */
+/* 6.設定大標題文字間距與輔助數字線 */
+
+
+
+/* 導航欄 */
+
+#nav-ul{
+    background: #888;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+#nav-ul a{
+    color: white;
+}
+#nav-ul li{
+    padding: 0 1em;
+}
+
+
+/* 會員中心 */
+
+#mumber-center{
+    position: relative;
+}
+
+#mumber-center:hover{
+    background: green;
+    
+}
+
+#mumber-center:hover #mumber-ul{
+    opacity: 1;
+    transition: 1s;
+}
+
+#mumber-ul{
+    text-align: center;
+    background: #aaa;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    opacity: 0;
+}
+
+#mumber-ul li{
+    padding: 3px 3px;
+    
+    list-style: decimal; /* 開發完成後需註解 */
+}
+
+#mumber-ul li:hover {
+    background-color: yellowgreen; 
+    
+}
+#mumber-ul li:hover a {
+    color: black;
+}
+
+/* 租賃服務 */
+
+
+#RentalServices{
+    position: relative;
+}
+
+#RentalServices-ul{
+    text-align: center;
+    background: #aaa;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    opacity: 0;
+}
+/* 1.次小標題隱藏 90~93*/ 
+/* 2/加入當小標題被選中時顯示次小標題 95~103*/
+/* 3.次小標題顏色 106~112 */
+#RentalServices-ul:hover #RentalServices-ul2{
+    opacity: 1;
+    transition: 1s;
+}
+
+#RentalServices-ul2{
+    text-align: center;
+    background: #555;
+    position: absolute;
+    width: 100%;
+    left: 0%;
+    top: calc(100% + 1px);
+    
+    opacity: 0;
+}
+
+#RentalServices-ul2 li:hover {
+    background-color: yellowgreen; 
+    
+}
+#RentalServices-ul2 li:hover a {
+    color: white;
+}
+
+#RentalServices:hover{
+    background: green;
+    
+}
+
+#RentalServices:hover #RentalServices-ul{
+    opacity: 1;
+    transition: 1s;
+}
+
+#RentalServices-ul li:hover {
+    background-color: yellowgreen; 
+    
+}
+/* 這邊有因應次小標題避免複寫 所以 + a */
+#RentalServices-ul li:hover + a {
+    color: black;
+}
+
+#RentalServices-ul li{
+    padding: 3px 3px;
+    list-style: decimal; /* 開發完成後需註解 */
+}
+
+/* 生活百貨 */
+
+#shopServices{
+    position: relative;
+}
+
+#shopServices-ul{
+    text-align: center;
+    background: #aaa;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    opacity: 0;
+}
+
+#shopServices:hover{
+    background: green;
+    
+}
+
+#shopServices:hover #shopServices-ul{
+    opacity: 1;
+    transition: 1s;
+}
+
+#shopServices-ul li:hover {
+    background-color: yellowgreen; 
+    
+}
+#shopServices-ul li:hover a {
+    color: black;
+}
+
+#shopServices-ul li{
+    padding: 3px 3px;
+    list-style: decimal; /* 開發完成後需註解 */
+}
+
+/* 公告 */
+
+#announcement{
+    position: relative;
+}
+
+#announcement-ul{
+    text-align: center;
+    background: #aaa;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    opacity: 0;
+}
+
+#announcement:hover{
+    background: green;
+    
+}
+
+#announcement:hover #announcement-ul{
+    opacity: 1;
+    transition: 1s;
+}
+contactUs
+#announcement-ul li:hover {
+    background-color: yellowgreen; 
+    
+}
+#announcement-ul li:hover a {
+    color: black;
+}
+
+#announcement-ul li{
+    padding: 3px 3px;
+    list-style: decimal; /* 開發完成後需註解 */
+}
+/* 聯絡我們 */
+
+#contactUs{
+    position: relative;
+}
+
+#contactUs-ul{
+    text-align: center;
+    background: #aaa;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    opacity: 0;
+}
+
+#contactUs:hover{
+    background: green;
+    
+}
+
+#contactUs:hover #contactUs-ul{
+    opacity: 1;
+    transition: 1s;
+}
+
+#contactUs-ul li:hover {
+    background-color: yellowgreen; 
+    
+}
+#contactUs-ul li:hover a {
+    color: black;
+}
+
+#contactUs-ul li{
+    padding: 3px 3px;
+    list-style: decimal; /* 開發完成後需註解 */
+}
