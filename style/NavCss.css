@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style:none;
+}
+
+#nav-ul{
+    background: #888;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+#nav-ul a{
+    color: white;
+}
+#nav-ul li{
+    padding: 0 1em;
+}
+
+
+/* 會員中心 */
+#mumber-center{
+    position: relative;
+}
+
+#mumber-center:hover{
+    background: green;
+    
+}
+
+#mumber-center:hover #mumber-ul{
+    opacity: 1;
+    transition: 1s;
+}
+
+#mumber-ul{
+    text-align: center;
+    background: #aaa;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    opacity: 0;
+}
+
+#mumber-ul li{
+    padding: 3px 3px;
+    
+    list-style: decimal; /* 開發完成後需註解 */
+}
+
+#mumber-ul li:hover {
+    background-color: yellowgreen; 
+    
+}
+#mumber-ul li:hover a {
+    color: black;
+}
+
+/* 租賃服務 */
+
+#RentalServices-ul{
+    
+}
+
